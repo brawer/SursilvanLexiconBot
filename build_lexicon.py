@@ -117,12 +117,14 @@ def inflect_verb(verb, klass):
             'Fin-Imp-Sing': [stem + 'escha'],           # capescha!
             'Fin-Imp-Plur': [stem + 'i'],               # capi!
 
-            'Part-Pres': [stem + 'end'],                # capend
+            'Part-Pres': [stem + 'ent'],                # capent
 
             'Part-Past-Sing-Masc': [stem + 'ius'],      # capius
             'Part-Past-Sing-Fem': [stem + 'ida'],       # capida
             'Part-Past-Plur-Masc': [stem + 'i'],        # capi
             'Part-Past-Plur-Fem': [stem + 'idas'],      # capidas
+
+            'Ger': [stem + 'end'],                      # capend
         }
 
 
@@ -131,6 +133,7 @@ SORT_ORDER = {
     'Inf': '0',
     'Fin': '1',
     'Part': '2',
+    'Ger': '3',
     'Ind': '0',
     'Sub': '1',
     'Cnd': '2',
@@ -151,6 +154,7 @@ FEATURE_KEY = {
     'Inf': 'VerbForm',
     'Fin': 'VerbForm',
     'Part': 'VerbForm',
+    'Ger': 'VerbForm',
     'Ind': 'Mood',
     'Sub': 'Mood',
     'Cnd': 'Mood',
