@@ -1,0 +1,5 @@
+# Copyright 2018 Sascha Brawer
+# Released under the Creative Commons Zero v1.0 Universal Public Domain Dedication
+# SPDX-License-Identifier: CC0-1.0
+
+capir 4e
