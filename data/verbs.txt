@@ -2,4 +2,6 @@
 # Released under the Creative Commons Zero v1.0 Universal Public Domain Dedication
 # SPDX-License-Identifier: CC0-1.0
 
-capir 4e
+# verb ipa pattern
+capir	kaˈpiː	capir	verstehen
+partir	parˈtiː	partir	abfahren, abreisen
